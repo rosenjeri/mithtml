@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <style>
+        label{
+            font-family: "DejaVu Sans Mono";
+            text-align: center;
+        }
+        input{
+            color: blue;
+            border: 2px solid crimson;
+            text-align: center;
+        }
+        body{
+            background-color: aqua;
+            text-align: center;
+        }
+        textarea{
+            text-align: center;
+            border: 2px solid crimson;
+        }
+    </style>
+</head>
+<body>
+<h2>Emobilis Student Registration Form</h2>
+<form action="Tables.html">
+  <label for="fname">First Name</label><br>
+  <input type="text" id="fname" placeholder="Enter First Name"><br>
+  <label for="sname">Last Name</label><br>
+  <input type="text" id="sname" placeholder="Enter Second Name"><br>
+    <label for="gender"> Female</label>
+    <input type="radio" id="gender" name="gender">
+    <label for="gender">Male</label>
+    <input type="radio" id="mgender" name="gender"><br>
+  <label for="email">Email Address</label><br>
+  <input type="email" id="email" placeholder="Enter Email Address"><br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" placeholder="Enter Password"><br>
+  <label for="dob">Date of Birth</label><br>
+  <input type="date" id="dob"><br>
+    <label for="courses">Courses</label><br>
+    <select name="courses" id="courses">
+        <option value="mit">Mit</option>
+        <option value="python">Python</option>
+        <option value="javascript">Javascript</option>
+        <option value="laravel">Laravel</option>
+    </select><br>
+    <textarea name="Message" id="school" cols="20" rows="5" placeholder="Message"></textarea><br>
+    <label for="checkbox">Checkbox</label><br>
+    <select name="checkbox" id="Checkbox">
+        <option value="campus">Campus</option>
+        <option value="work">Work</option>
+        <option value="student">Student</option>
+    </select><br>
+  <input type="submit" value="Register here"><br>
+    <button type="button" onclick="alert('karibu javascript')">Bonyeza</button>
+    <br>
+    <label for="time">Time</label>
+    <input type="time" id="time">
+    <label for="week">Week</label>
+    <input type="week" id="week">
+    <label for="tel">Telephone Number</label>
+    <input type="text" id="tel"><br>
+    <label for="favcolor">Select your Favourite color</label>
+    <input type="color" id="favcolor" name="favcolor">
+
+</form>
+
+</body>
+</html>
